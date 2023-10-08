@@ -10,7 +10,7 @@ export default function MyButton({
 }) {
   return (
     <Pressable
-      className="flex items-center justify-center bg-red-500 h-8 rounded-sm"
+      className="absolute bottom-0 flex items-center justify-center bg-blue-500 w-full h-8 "
       onPress={onPress}>
       <Text className="text-white">{title}</Text>
     </Pressable>

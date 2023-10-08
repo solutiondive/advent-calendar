@@ -1,8 +1,8 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
-import Main from './screens/Main';
-import Side from './screens/Side';
+import Main from '../screens/Main';
+import Side from '../screens/Side';
 
 const Stack = createStackNavigator();
 export default function Navigator() {

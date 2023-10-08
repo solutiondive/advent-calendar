@@ -1,7 +1,7 @@
 import React from 'react';
-import {Text, Pressable} from 'react-native';
+import {Pressable, Text} from 'react-native';
 
-export default function MyButton({
+export default function HomeButton({
   title,
   onPress,
 }: {
@@ -10,7 +10,7 @@ export default function MyButton({
 }) {
   return (
     <Pressable
-      className="absolute bottom-0 flex h-12  w-full items-center justify-center bg-blue-500 "
+      className=" flex h-12 w-3/4 items-center justify-center rounded-2xl bg-blue-500"
       onPress={onPress}>
       <Text className="text-xl text-white">{title}</Text>
     </Pressable>

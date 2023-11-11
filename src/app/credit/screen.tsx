@@ -2,7 +2,7 @@ import React from 'react';
 import {View, Text, Image} from 'react-native';
 import {Button} from '~/components/common/Layout';
 
-export default function Credit({navigation}: {navigation: any}) {
+export default function CreditScreen({navigation}: {navigation: any}) {
   return (
     <View className="relative flex h-full items-center justify-center">
       <View className="h-1/2 w-full">

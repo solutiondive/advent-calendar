@@ -4,10 +4,9 @@
     "baseUrl": "./src",
     "paths": {
       "~/*": ["./*"],
-      "@route/*": ["route/*"],
+      "@app/*": ["app/*"],
       "@components/*": ["components/*"],
       "@asset/*": ["asset/*"],
-      "@screen/*": ["screen/*"],
       "@shared/*": ["shared/*"],
     },
   },

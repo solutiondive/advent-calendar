@@ -1,12 +1,12 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
-import Main from '~/screen/Main';
-import Credit from '~/screen/Credit';
-import Home from '~/screen/Home';
+import Main from '~/app/main/screen';
+import Credit from '~/app/credit/screen';
+import Home from '~/app/home/screen';
 
 const Stack = createStackNavigator();
-export default function Navigator() {
+export default function Route() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">

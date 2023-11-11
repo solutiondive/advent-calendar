@@ -8,7 +8,7 @@ const homeButtons = [
   {title: 'Exit', onPress: () => BackHandler.exitApp()},
 ];
 
-export default function Home({navigation}: {navigation: any}) {
+export default function HomeScreen({navigation}: {navigation: any}) {
   return (
     <View className="flex flex-col">
       <View className=" w-full">

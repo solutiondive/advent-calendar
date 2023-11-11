@@ -22,10 +22,9 @@ module.exports = function (api) {
           ],
           alias: {
             '~': './src',
-            '@route': './src/route',
+            '@app': './src/app',
             '@components': './src/components',
             '@asset': './src/asset',
-            '@screen': './src/screen',
             '@shared': './src/shared',
           },
         },

@@ -1,10 +1,10 @@
 import React from 'react';
-import Navigator from './route/Navigator';
+import Route from './app/route';
 
 export default function App() {
   return (
     <>
-      <Navigator />
+      <Route />
     </>
   );
 }

@@ -2,9 +2,10 @@
 module.exports = {
   content: [
     './src/App.{js,jsx,ts,tsx}',
-    './src/assets/**/*.{js,ts,jsx,tsx}',
-    './src/screens/*.{js,ts,jsx,tsx}',
+    './src/route/**/*.{js,ts,jsx,tsx}',
     './src/components/**/*.{js,ts,jsx,tsx}',
+    './src/asset/**/*.{js,ts,jsx,tsx}',
+    './src/screen/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {

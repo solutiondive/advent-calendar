@@ -4,9 +4,11 @@
     "baseUrl": "./src",
     "paths": {
       "~/*": ["./*"],
+      "@route/*": ["route/*"],
       "@components/*": ["components/*"],
-      "@assets/*": ["assets/*"],
-      "@screens/*": ["screens/*"],
+      "@asset/*": ["asset/*"],
+      "@screen/*": ["screen/*"],
+      "@shared/*": ["shared/*"],
     },
   },
   "include": ["src", "index.js", "app.d.ts", "src/App.tsx"],

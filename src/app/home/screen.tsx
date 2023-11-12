@@ -9,7 +9,7 @@ export default function HomeScreen({navigation}: {navigation: any}) {
       <View className=" w-full">
         <Text className="text-2xl">This is the Home Screen</Text>
       </View>
-      <View className="mt-auto flex h-full w-full flex-col justify-end">
+      <View className="mt-auto flex h-full w-full flex-col items-center justify-end">
         {buttons.map((button, index) => (
           <Button
             key={index}
